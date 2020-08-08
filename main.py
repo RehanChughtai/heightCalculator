@@ -14,4 +14,11 @@ def conversionCalculator():
     ans = inches * 12
     print("Your height is " , math.trunc(feet) ,"ft", round(ans), "inches")
 
-conversionCalculator()
+def feetConversion():
+    feet = int(input("Input your height in feet: "))
+    inches = int(input("Input your height in inches: "))
+    inches += feet * 12
+    cm = round(inches * 2.54, 1)
+    print("Your height is: %d cm." % cm)
+
+feetConversion()
