@@ -3,8 +3,7 @@ import math
 
 #Converts value from cm to ft and inches
 def cmConversion():
-    print("Welcome to the height calculator!")
-    print("Convert CM to Feet and Inches")
+    print("Convert Feet and Inches to CM")
     cm = int(input("Input a number in cm format: "))
     #Gives answer in ft
     feet = 0.0328084 * cm

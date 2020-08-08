@@ -1,5 +1,6 @@
 #Converting feet and inches into cm
 def feetConversion():
+    print("Convert CM to Feet and Inches")
     #Take user input for feet and inches
     feet = int(input("Input your height in feet: "))
     inches = int(input("Input your height in inches: "))
