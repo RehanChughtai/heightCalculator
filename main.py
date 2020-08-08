@@ -19,12 +19,12 @@ def getMenuChoice():
         if choice == '1':
             int_choice = 1
             #Calls addition function on choice
-           # feetConversion.feetConversion()
+            feetConversion.feetConversion()
             loop = True
         elif choice == '2':
             int_choice = 2
             #Calls subtraction function on choice
-           # cmConversion.cmConversion()
+            cmConversion.cmConversion()
             loop = True 
         elif choice == '3':
             int_choice = -1

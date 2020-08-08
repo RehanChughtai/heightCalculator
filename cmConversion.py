@@ -12,5 +12,3 @@ def cmConversion():
     #Multiply by 12 to get the remainder of feet
     ans = inches * 12
     print("Your height is " , math.trunc(feet) ,"ft", round(ans), "inches")
-
-cmConversion()

@@ -9,5 +9,3 @@ def feetConversion():
     #CM rounds inches by 2.54 to give final value
     cm = round(inches * 2.54, 1)
     print("Your height is: %d cm." % cm)
-
-feetConversion()
